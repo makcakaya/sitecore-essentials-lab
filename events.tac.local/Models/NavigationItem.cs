@@ -1,6 +1,6 @@
 ﻿namespace events.tac.local.Models
 {
-    public sealed class NavigationItem
+    public class NavigationItem
     {
         public string Title { get; set; }
         public string URL { get; set; }
