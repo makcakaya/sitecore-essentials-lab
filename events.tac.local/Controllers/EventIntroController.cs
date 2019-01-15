@@ -8,7 +8,6 @@ namespace events.tac.local.Controllers
 {
     public class EventIntroController : Controller
     {
-        // GET: EventIntro
         public ActionResult Index()
         {
             return View(CreateModel());
